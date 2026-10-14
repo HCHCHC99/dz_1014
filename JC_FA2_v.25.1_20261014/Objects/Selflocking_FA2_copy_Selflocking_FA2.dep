@@ -1,2314 +1,0 @@
-Dependencies for Project 'Selflocking_FA2_copy', Target 'Selflocking_FA2': (DO NOT MODIFY !)
-CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (.\common\startup_hc32f46x.s)(0x6A8959D5)(--cpu Cortex-M4 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include--pd "__UVISION_VERSION SETA 533" --pd "_RTE_ SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_hc32f46x.lst --xref -o .\objects\startup_hc32f46x.o --depend .\objects\startup_hc32f46x.d)
-F (.\common\system_hc32f46x.c)(0x6035BC42)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\system_hc32f46x.o --omf_browse .\objects\system_hc32f46x.crf --depend .\objects\system_hc32f46x.d)
-I (common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (common\system_hc32f46x.h)(0x6035BC42)
-F (.\driver\src\hc32f46x_adc.c)(0x6886C430)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_adc.o --omf_browse .\objects\hc32f46x_adc.crf --depend .\objects\hc32f46x_adc.d)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_aes.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_aes.o --omf_browse .\objects\hc32f46x_aes.crf --depend .\objects\hc32f46x_aes.d)
-I (.\driver\inc\hc32f46x_aes.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_can.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_can.o --omf_browse .\objects\hc32f46x_can.crf --depend .\objects\hc32f46x_can.d)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_clk.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_clk.o --omf_browse .\objects\hc32f46x_clk.crf --depend .\objects\hc32f46x_clk.d)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_cmp.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_cmp.o --omf_browse .\objects\hc32f46x_cmp.crf --depend .\objects\hc32f46x_cmp.d)
-I (.\driver\inc\hc32f46x_cmp.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_crc.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_crc.o --omf_browse .\objects\hc32f46x_crc.crf --depend .\objects\hc32f46x_crc.d)
-I (.\driver\inc\hc32f46x_crc.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_dcu.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_dcu.o --omf_browse .\objects\hc32f46x_dcu.crf --depend .\objects\hc32f46x_dcu.d)
-I (.\driver\inc\hc32f46x_dcu.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_dmac.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_dmac.o --omf_browse .\objects\hc32f46x_dmac.crf --depend .\objects\hc32f46x_dmac.d)
-I (.\driver\inc\hc32f46x_dmac.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_efm.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_efm.o --omf_browse .\objects\hc32f46x_efm.crf --depend .\objects\hc32f46x_efm.d)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_emb.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_emb.o --omf_browse .\objects\hc32f46x_emb.crf --depend .\objects\hc32f46x_emb.d)
-I (.\driver\inc\hc32f46x_emb.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_event_port.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_event_port.o --omf_browse .\objects\hc32f46x_event_port.crf --depend .\objects\hc32f46x_event_port.d)
-I (.\driver\inc\hc32f46x_event_port.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_exint_nmi_swi.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_exint_nmi_swi.o --omf_browse .\objects\hc32f46x_exint_nmi_swi.crf --depend .\objects\hc32f46x_exint_nmi_swi.d)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_gpio.c)(0x689410D2)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_gpio.o --omf_browse .\objects\hc32f46x_gpio.crf --depend .\objects\hc32f46x_gpio.d)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_hash.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_hash.o --omf_browse .\objects\hc32f46x_hash.crf --depend .\objects\hc32f46x_hash.d)
-I (.\driver\inc\hc32f46x_hash.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_i2c.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_i2c.o --omf_browse .\objects\hc32f46x_i2c.crf --depend .\objects\hc32f46x_i2c.d)
-I (.\driver\inc\hc32f46x_i2c.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_i2s.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_i2s.o --omf_browse .\objects\hc32f46x_i2s.crf --depend .\objects\hc32f46x_i2s.d)
-I (.\driver\inc\hc32f46x_i2s.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_icg.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_icg.o --omf_browse .\objects\hc32f46x_icg.crf --depend .\objects\hc32f46x_icg.d)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-F (.\driver\src\hc32f46x_interrupts.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_interrupts.o --omf_browse .\objects\hc32f46x_interrupts.crf --depend .\objects\hc32f46x_interrupts.d)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_keyscan.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_keyscan.o --omf_browse .\objects\hc32f46x_keyscan.crf --depend .\objects\hc32f46x_keyscan.d)
-I (.\driver\inc\hc32f46x_keyscan.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_mpu.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_mpu.o --omf_browse .\objects\hc32f46x_mpu.crf --depend .\objects\hc32f46x_mpu.d)
-I (.\driver\inc\hc32f46x_mpu.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_ots.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_ots.o --omf_browse .\objects\hc32f46x_ots.crf --depend .\objects\hc32f46x_ots.d)
-I (.\driver\inc\hc32f46x_ots.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_pwc.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_pwc.o --omf_browse .\objects\hc32f46x_pwc.crf --depend .\objects\hc32f46x_pwc.d)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_qspi.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_qspi.o --omf_browse .\objects\hc32f46x_qspi.crf --depend .\objects\hc32f46x_qspi.d)
-I (.\driver\inc\hc32f46x_qspi.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_rmu.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_rmu.o --omf_browse .\objects\hc32f46x_rmu.crf --depend .\objects\hc32f46x_rmu.d)
-I (.\driver\inc\hc32f46x_rmu.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_rtc.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_rtc.o --omf_browse .\objects\hc32f46x_rtc.crf --depend .\objects\hc32f46x_rtc.d)
-I (.\driver\inc\hc32f46x_rtc.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_sdioc.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_sdioc.o --omf_browse .\objects\hc32f46x_sdioc.crf --depend .\objects\hc32f46x_sdioc.d)
-I (.\driver\inc\hc32f46x_sdioc.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_spi.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_spi.o --omf_browse .\objects\hc32f46x_spi.crf --depend .\objects\hc32f46x_spi.d)
-I (.\driver\inc\hc32f46x_spi.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_sram.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_sram.o --omf_browse .\objects\hc32f46x_sram.crf --depend .\objects\hc32f46x_sram.d)
-I (.\driver\inc\hc32f46x_sram.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_swdt.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_swdt.o --omf_browse .\objects\hc32f46x_swdt.crf --depend .\objects\hc32f46x_swdt.d)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_timer0.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_timer0.o --omf_browse .\objects\hc32f46x_timer0.crf --depend .\objects\hc32f46x_timer0.d)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_timer4_cnt.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_timer4_cnt.o --omf_browse .\objects\hc32f46x_timer4_cnt.crf --depend .\objects\hc32f46x_timer4_cnt.d)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_timer4_emb.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_timer4_emb.o --omf_browse .\objects\hc32f46x_timer4_emb.crf --depend .\objects\hc32f46x_timer4_emb.d)
-I (.\driver\inc\hc32f46x_timer4_emb.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_timer4_oco.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_timer4_oco.o --omf_browse .\objects\hc32f46x_timer4_oco.crf --depend .\objects\hc32f46x_timer4_oco.d)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_timer4_pwm.c)(0x68888D22)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_timer4_pwm.o --omf_browse .\objects\hc32f46x_timer4_pwm.crf --depend .\objects\hc32f46x_timer4_pwm.d)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_timer4_sevt.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_timer4_sevt.o --omf_browse .\objects\hc32f46x_timer4_sevt.crf --depend .\objects\hc32f46x_timer4_sevt.d)
-I (.\driver\inc\hc32f46x_timer4_sevt.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_timer6.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_timer6.o --omf_browse .\objects\hc32f46x_timer6.crf --depend .\objects\hc32f46x_timer6.d)
-I (.\driver\inc\hc32f46x_timer6.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_timera.c)(0x68898F9A)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_timera.o --omf_browse .\objects\hc32f46x_timera.crf --depend .\objects\hc32f46x_timera.d)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_trng.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_trng.o --omf_browse .\objects\hc32f46x_trng.crf --depend .\objects\hc32f46x_trng.d)
-I (.\driver\inc\hc32f46x_trng.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_usart.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_usart.o --omf_browse .\objects\hc32f46x_usart.crf --depend .\objects\hc32f46x_usart.d)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\driver\src\hc32f46x_utility.c)(0x688B1E0C)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_utility.o --omf_browse .\objects\hc32f46x_utility.crf --depend .\objects\hc32f46x_utility.d)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-F (.\driver\src\hc32f46x_wdt.c)(0x6035BC40)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f46x_wdt.o --omf_browse .\objects\hc32f46x_wdt.crf --depend .\objects\hc32f46x_wdt.d)
-I (.\driver\inc\hc32f46x_wdt.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\USER\adapter\adc_adapter.c)(0x68BA9354)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\adc_adapter.o --omf_browse .\objects\adc_adapter.crf --depend .\objects\adc_adapter.d)
-I (USER\adapter\adc_adapter.h)(0x68BA93EC)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (.\USER\system\system.h)(0x68B16BE8)
-I (.\USER\system\sys_cfg.h)(0x655344BE)
-I (.\USER\system\syscon.h)(0x689585E8)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\system\sys_def.h)(0x6A7007FA)
-I (.\USER\main.h)(0x690BFBCA)
-I (.\USER\system\hz_timer.h)(0x68B0F9E6)
-I (USER\adapter\ring_buffer.h)(0x691BCE56)
-F (.\USER\adapter\delay_adapter.c)(0x6406A2D6)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\delay_adapter.o --omf_browse .\objects\delay_adapter.crf --depend .\objects\delay_adapter.d)
-I (USER\adapter\delay_adapter.h)(0x6406A2D6)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\USER\adapter\flash_adapter.c)(0x654C7146)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\flash_adapter.o --omf_browse .\objects\flash_adapter.crf --depend .\objects\flash_adapter.d)
-I (USER\adapter\flash_adapter.h)(0x652501B2)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\USER\adapter\gpio_adapter.c)(0x686DD1A0)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\gpio_adapter.o --omf_browse .\objects\gpio_adapter.crf --depend .\objects\gpio_adapter.d)
-I (USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\USER\adapter\timer_adapter.c)(0x655343C8)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\timer_adapter.o --omf_browse .\objects\timer_adapter.crf --depend .\objects\timer_adapter.d)
-I (USER\adapter\timer_adapter.h)(0x654C74C4)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\USER\adapter\uart_adapter.c)(0x65095D8A)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\uart_adapter.o --omf_browse .\objects\uart_adapter.crf --depend .\objects\uart_adapter.d)
-I (USER\adapter\uart_adapter.h)(0x6406A2D6)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\USER\adapter\can_adapter.c)(0x686DD15A)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\can_adapter.o --omf_browse .\objects\can_adapter.crf --depend .\objects\can_adapter.d)
-I (USER\adapter\can_adapter.h)(0x64266774)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\USER\adapter\ring_buffer.c)(0x68BA92DE)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\ring_buffer.o --omf_browse .\objects\ring_buffer.crf --depend .\objects\ring_buffer.d)
-I (USER\adapter\ring_buffer.h)(0x691BCE56)
-I (.\USER\system\sys_def.h)(0x6A7007FA)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-F (.\USER\adapter\adapter_pwm.c)(0x69C50486)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\adapter_pwm.o --omf_browse .\objects\adapter_pwm.crf --depend .\objects\adapter_pwm.d)
-I (USER\adapter\adapter_pwm.h)(0x690B0BF8)
-I (.\USER\main.h)(0x690BFBCA)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\system\hz_timer.h)(0x68B0F9E6)
-F (.\USER\MotorControl\mc_cur.c)(0x6406A3D0)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\mc_cur.o --omf_browse .\objects\mc_cur.crf --depend .\objects\mc_cur.d)
-I (USER\MotorControl\mc_cur.h)(0x689D38F8)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (USER\MotorControl\mc_common.h)(0x64475D12)
-I (USER\MotorControl\mc_config.h)(0x6889E492)
-I (.\USER\main.h)(0x690BFBCA)
-I (.\USER\adapter\adc_adapter.h)(0x68BA93EC)
-I (.\USER\system\system.h)(0x68B16BE8)
-I (.\USER\system\sys_cfg.h)(0x655344BE)
-I (.\USER\system\syscon.h)(0x689585E8)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\system\sys_def.h)(0x6A7007FA)
-F (.\USER\MotorControl\mc_drv.c)(0x68883B66)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\mc_drv.o --omf_browse .\objects\mc_drv.crf --depend .\objects\mc_drv.d)
-I (USER\MotorControl\mc_drv.h)(0x687498C2)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (USER\MotorControl\mc_common.h)(0x64475D12)
-I (USER\MotorControl\mc_config.h)(0x6889E492)
-I (.\USER\main.h)(0x690BFBCA)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\adapter\timer_adapter.h)(0x654C74C4)
-I (.\USER\adapter\delay_adapter.h)(0x6406A2D6)
-F (.\USER\MotorControl\mc_app.c)(0x6889B97E)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\mc_app.o --omf_browse .\objects\mc_app.crf --depend .\objects\mc_app.d)
-I (USER\MotorControl\mc_app.h)(0x6874B34E)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (USER\MotorControl\mc_common.h)(0x64475D12)
-I (USER\MotorControl\mc_config.h)(0x6889E492)
-I (.\USER\main.h)(0x690BFBCA)
-I (USER\MotorControl\mc_drv.h)(0x687498C2)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\adapter\timer_adapter.h)(0x654C74C4)
-I (USER\MotorControl\mc_hall.h)(0x6870563A)
-I (USER\MotorControl\mc_spd.h)(0x6444911C)
-I (USER\MotorControl\pid.h)(0x6406A4EC)
-I (USER\MotorControl\mc_pos.h)(0x6441FAAE)
-I (USER\MotorControl\mc_cur.h)(0x689D38F8)
-I (.\USER\adapter\adc_adapter.h)(0x68BA93EC)
-I (.\USER\system\system.h)(0x68B16BE8)
-I (.\USER\system\sys_cfg.h)(0x655344BE)
-I (.\USER\system\syscon.h)(0x689585E8)
-I (.\USER\system\sys_def.h)(0x6A7007FA)
-F (.\USER\MotorControl\mc_hall.c)(0x654C7F10)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\mc_hall.o --omf_browse .\objects\mc_hall.crf --depend .\objects\mc_hall.d)
-I (USER\MotorControl\mc_hall.h)(0x6870563A)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (USER\MotorControl\mc_common.h)(0x64475D12)
-I (USER\MotorControl\mc_config.h)(0x6889E492)
-I (.\USER\main.h)(0x690BFBCA)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-F (.\USER\MotorControl\mc_pos.c)(0x6870BB70)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\mc_pos.o --omf_browse .\objects\mc_pos.crf --depend .\objects\mc_pos.d)
-I (USER\MotorControl\mc_pos.h)(0x6441FAAE)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (USER\MotorControl\mc_common.h)(0x64475D12)
-I (USER\MotorControl\mc_config.h)(0x6889E492)
-I (.\USER\main.h)(0x690BFBCA)
-I (USER\MotorControl\pid.h)(0x6406A4EC)
-F (.\USER\MotorControl\mc_spd.c)(0x6444EE7A)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\mc_spd.o --omf_browse .\objects\mc_spd.crf --depend .\objects\mc_spd.d)
-I (USER\MotorControl\mc_spd.h)(0x6444911C)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (USER\MotorControl\mc_common.h)(0x64475D12)
-I (USER\MotorControl\mc_config.h)(0x6889E492)
-I (.\USER\main.h)(0x690BFBCA)
-I (USER\MotorControl\pid.h)(0x6406A4EC)
-F (.\USER\MotorControl\pid.c)(0x6406A4EC)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\pid.o --omf_browse .\objects\pid.crf --depend .\objects\pid.d)
-I (USER\MotorControl\pid.h)(0x6406A4EC)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (USER\MotorControl\mc_common.h)(0x64475D12)
-I (USER\MotorControl\mc_config.h)(0x6889E492)
-I (.\USER\main.h)(0x690BFBCA)
-F (.\USER\btn\btn.c)(0x6513D184)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\btn.o --omf_browse .\objects\btn.crf --depend .\objects\btn.d)
-I (USER\btn\btn.h)(0x64196D38)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (USER\btn\btn_drv.h)(0x6409B25C)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\main.h)(0x690BFBCA)
-I (.\USER\debug\debug.h)(0x6406A372)
-F (.\USER\btn\btn_drv.c)(0x6409B1B2)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\btn_drv.o --omf_browse .\objects\btn_drv.crf --depend .\objects\btn_drv.d)
-I (USER\btn\btn_drv.h)(0x6409B25C)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\debug\debug.h)(0x6406A372)
-F (.\USER\system\system.c)(0x6A89612A)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\system.o --omf_browse .\objects\system.crf --depend .\objects\system.d)
-I (USER\system\system.h)(0x68B16BE8)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (USER\system\sys_cfg.h)(0x655344BE)
-I (USER\system\syscon.h)(0x689585E8)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\main.h)(0x690BFBCA)
-I (.\USER\MotorControl\mc_app.h)(0x6874B34E)
-I (.\USER\MotorControl\mc_common.h)(0x64475D12)
-I (.\USER\MotorControl\mc_config.h)(0x6889E492)
-I (.\USER\btn\btn.h)(0x64196D38)
-I (.\USER\btn\btn_drv.h)(0x6409B25C)
-I (.\USER\adapter\adc_adapter.h)(0x68BA93EC)
-I (.\USER\system\sys_def.h)(0x6A7007FA)
-I (.\USER\adapter\uart_adapter.h)(0x6406A2D6)
-I (.\USER\adapter\flash_adapter.h)(0x652501B2)
-I (.\USER\adapter\timer_adapter.h)(0x654C74C4)
-I (.\USER\adapter\delay_adapter.h)(0x6406A2D6)
-I (.\USER\msg\modbus.h)(0x6870640C)
-I (.\USER\msg\queue.h)(0x6406A550)
-I (.\USER\adapter\can_adapter.h)(0x64266774)
-I (.\USER\CanOpen\co.h)(0x654DEBB8)
-I (.\USER\CanOpen\co_sdo.h)(0x641822CE)
-I (.\USER\math\crc.h)(0x6513D7D8)
-I (USER\system\hz_timer.h)(0x68B0F9E6)
-I (.\USER\MotorControl\mc_cur.h)(0x689D38F8)
-I (USER\system\motor_adc.h)(0x6A8967D1)
-F (.\USER\system\sys_cfg.c)(0x65534494)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\sys_cfg.o --omf_browse .\objects\sys_cfg.crf --depend .\objects\sys_cfg.d)
-I (.\USER\main.h)(0x690BFBCA)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (USER\system\sys_cfg.h)(0x655344BE)
-I (USER\system\syscon.h)(0x689585E8)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\adapter\uart_adapter.h)(0x6406A2D6)
-I (.\USER\adapter\flash_adapter.h)(0x652501B2)
-I (.\USER\math\crc.h)(0x6513D7D8)
-F (.\USER\system\hz_timer.c)(0x68B0FA90)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hz_timer.o --omf_browse .\objects\hz_timer.crf --depend .\objects\hz_timer.d)
-I (USER\system\hz_timer.h)(0x68B0F9E6)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-F (.\USER\system\hall_position.c)(0x6A6C4302)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hall_position.o --omf_browse .\objects\hall_position.crf --depend .\objects\hall_position.d)
-I (USER\system\hall_position.h)(0x6A72867C)
-I (USER\system\sys_def.h)(0x6A7007FA)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (USER\system\hardware.h)(0x691582CC)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\USER\system\hardware.c)(0x696484E4)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hardware.o --omf_browse .\objects\hardware.crf --depend .\objects\hardware.d)
-I (USER\system\hardware.h)(0x691582CC)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\USER\main.h)(0x690BFBCA)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (.\USER\adapter\adc_adapter.h)(0x68BA93EC)
-I (.\USER\system\system.h)(0x68B16BE8)
-I (.\USER\system\sys_cfg.h)(0x655344BE)
-I (.\USER\system\syscon.h)(0x689585E8)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\system\sys_def.h)(0x6A7007FA)
-I (.\USER\adapter\adapter_pwm.h)(0x690B0BF8)
-I (USER\system\hz_nopwm.h)(0x68E863E6)
-I (USER\system\usart_usb.h)(0x69647ADC)
-I (USER\system\hall_position.h)(0x6A72867C)
-I (USER\system\power.h)(0x6A6BED62)
-I (USER\system\motor_adc.h)(0x6A8967D1)
-I (USER\system\hz_timer.h)(0x68B0F9E6)
-I (USER\system\dev_pwm.h)(0x6A70316A)
-I (USER\system\device_manager.h)(0x690BEBBA)
-I (USER\system\xwm_check.h)(0x69158946)
-F (.\USER\system\motor_cmd.c)(0x6A700812)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\motor_cmd.o --omf_browse .\objects\motor_cmd.crf --depend .\objects\motor_cmd.d)
-I (USER\system\motor_cmd.h)(0x6A896240)
-I (USER\system\sys_def.h)(0x6A7007FA)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (USER\system\hz_timer.h)(0x68B0F9E6)
-I (USER\system\hardware.h)(0x691582CC)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (.\USER\main.h)(0x690BFBCA)
-I (.\USER\adapter\adapter_pwm.h)(0x690B0BF8)
-I (USER\system\hz_nopwm.h)(0x68E863E6)
-I (USER\system\motor_adc.h)(0x6A8967D1)
-I (.\USER\adapter\adc_adapter.h)(0x68BA93EC)
-I (.\USER\system\system.h)(0x68B16BE8)
-I (.\USER\system\sys_cfg.h)(0x655344BE)
-I (.\USER\system\syscon.h)(0x689585E8)
-I (USER\system\dev_pwm.h)(0x6A70316A)
-I (USER\system\device_manager.h)(0x690BEBBA)
-F (.\USER\system\power.c)(0x6A6BEE84)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\power.o --omf_browse .\objects\power.crf --depend .\objects\power.d)
-I (USER\system\power.h)(0x6A6BED62)
-I (USER\system\sys_def.h)(0x6A7007FA)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (USER\system\hardware.h)(0x691582CC)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (USER\system\hz_timer.h)(0x68B0F9E6)
-F (.\USER\system\sys_main_state.c)(0x6A896173)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\sys_main_state.o --omf_browse .\objects\sys_main_state.crf --depend .\objects\sys_main_state.d)
-I (USER\system\sys_main_state.h)(0x6A700800)
-I (USER\system\sys_def.h)(0x6A7007FA)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (USER\system\power.h)(0x6A6BED62)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (USER\system\hall_position.h)(0x6A72867C)
-I (USER\system\motor_cmd.h)(0x6A896240)
-I (USER\system\hz_timer.h)(0x68B0F9E6)
-I (USER\system\system.h)(0x68B16BE8)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (USER\system\sys_cfg.h)(0x655344BE)
-I (USER\system\syscon.h)(0x689585E8)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\main.h)(0x690BFBCA)
-I (USER\system\hardware.h)(0x691582CC)
-I (.\USER\adapter\adapter_pwm.h)(0x690B0BF8)
-I (.\USER\adapter\adc_adapter.h)(0x68BA93EC)
-I (USER\system\usart_usb.h)(0x69647ADC)
-I (USER\system\motor_adc.h)(0x6A8967D1)
-I (USER\system\dev_pwm.h)(0x6A70316A)
-I (USER\system\device_manager.h)(0x690BEBBA)
-F (.\USER\system\usart_usb.c)(0x68BA9C16)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\usart_usb.o --omf_browse .\objects\usart_usb.crf --depend .\objects\usart_usb.d)
-I (USER\system\usart_usb.h)(0x69647ADC)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (.\USER\main.h)(0x690BFBCA)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (USER\system\hz_timer.h)(0x68B0F9E6)
-F (.\USER\system\hz_nopwm.c)(0x68C907E8)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\hz_nopwm.o --omf_browse .\objects\hz_nopwm.crf --depend .\objects\hz_nopwm.d)
-I (USER\system\hz_nopwm.h)(0x68E863E6)
-I (USER\system\sys_def.h)(0x6A7007FA)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-F (.\USER\system\module_usart.c)(0x68AFA2C8)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\module_usart.o --omf_browse .\objects\module_usart.crf --depend .\objects\module_usart.d)
-I (USER\system\module_usart.h)(0x68AFA556)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-F (.\USER\system\motor_adc.c)(0x6A896C8C)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\motor_adc.o --omf_browse .\objects\motor_adc.crf --depend .\objects\motor_adc.d)
-I (USER\system\motor_adc.h)(0x6A8967D1)
-I (.\USER\adapter\adc_adapter.h)(0x68BA93EC)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (.\USER\system\system.h)(0x68B16BE8)
-I (.\USER\system\sys_cfg.h)(0x655344BE)
-I (.\USER\system\syscon.h)(0x689585E8)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\system\sys_def.h)(0x6A7007FA)
-I (USER\system\hz_timer.h)(0x68B0F9E6)
-I (.\USER\adapter\ring_buffer.h)(0x691BCE56)
-I (.\USER\main.h)(0x690BFBCA)
-F (.\USER\system\device_manager.c)(0x690AFC68)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\device_manager.o --omf_browse .\objects\device_manager.crf --depend .\objects\device_manager.d)
-I (USER\system\device_manager.h)(0x690BEBBA)
-I (.\USER\main.h)(0x690BFBCA)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (USER\system\dev_pwm.h)(0x6A70316A)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\adapter\adapter_pwm.h)(0x690B0BF8)
-F (.\USER\system\dev_pwm.c)(0x6A8959E8)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\dev_pwm.o --omf_browse .\objects\dev_pwm.crf --depend .\objects\dev_pwm.d)
-I (USER\system\dev_pwm.h)(0x6A70316A)
-I (.\USER\main.h)(0x690BFBCA)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\adapter\adapter_pwm.h)(0x690B0BF8)
-I (USER\system\device_manager.h)(0x690BEBBA)
-I (USER\system\hz_timer.h)(0x68B0F9E6)
-F (.\USER\system\xwm_check.c)(0x69158BA8)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\xwm_check.o --omf_browse .\objects\xwm_check.crf --depend .\objects\xwm_check.d)
-I (USER\system\hardware.h)(0x691582CC)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (USER\system\xwm_check.h)(0x69158946)
-I (USER\system\sys_def.h)(0x6A7007FA)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\USER\main.c)(0x6A702F54)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (USER\main.h)(0x690BFBCA)
-I (USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\USER\system\system.h)(0x68B16BE8)
-I (.\USER\system\sys_cfg.h)(0x655344BE)
-I (.\USER\system\syscon.h)(0x689585E8)
-I (.\USER\adapter\gpio_adapter.h)(0x686E1DD0)
-I (.\USER\MotorControl\mc_config.h)(0x6889E492)
-I (.\USER\adapter\delay_adapter.h)(0x6406A2D6)
-I (.\USER\adapter\uart_adapter.h)(0x6406A2D6)
-I (.\USER\system\hz_timer.h)(0x68B0F9E6)
-I (.\USER\MotorControl\mc_cur.h)(0x689D38F8)
-I (.\USER\MotorControl\mc_common.h)(0x64475D12)
-I (.\USER\MotorControl\mc_app.h)(0x6874B34E)
-I (.\USER\adapter\adc_adapter.h)(0x68BA93EC)
-I (.\USER\system\sys_def.h)(0x6A7007FA)
-I (.\USER\system\sys_main_state.h)(0x6A700800)
-I (.\USER\system\hardware.h)(0x691582CC)
-I (.\USER\adapter\adapter_pwm.h)(0x690B0BF8)
-I (.\USER\system\usart_usb.h)(0x69647ADC)
-I (.\USER\system\hz_nopwm.h)(0x68E863E6)
-I (.\USER\adapter\ring_buffer.h)(0x691BCE56)
-I (.\USER\system\dev_pwm.h)(0x6A70316A)
-I (.\USER\system\device_manager.h)(0x690BEBBA)
-I (.\USER\system\xwm_check.h)(0x69158946)
-F (.\USER\CanOpen\co.c)(0x64266670)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\co.o --omf_browse .\objects\co.crf --depend .\objects\co.d)
-I (USER\CanOpen\co.h)(0x654DEBB8)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (USER\CanOpen\co_sdo.h)(0x641822CE)
-I (.\USER\adapter\can_adapter.h)(0x64266774)
-F (.\USER\CanOpen\co_sdo.c)(0x654DEBCC)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\co_sdo.o --omf_browse .\objects\co_sdo.crf --depend .\objects\co_sdo.d)
-I (USER\CanOpen\co_sdo.h)(0x641822CE)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (.\USER\adapter\can_adapter.h)(0x64266774)
-I (USER\CanOpen\co.h)(0x654DEBB8)
-F (.\USER\msg\modbus.c)(0x6520B90C)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\modbus.o --omf_browse .\objects\modbus.crf --depend .\objects\modbus.d)
-I (USER\msg\modbus.h)(0x6870640C)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\USER\msg\queue.c)(0x6513C894)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
-I (USER\msg\queue.h)(0x6406A550)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-F (.\USER\math\crc.c)(0x654E0A84)(--c99 --gnu -c --cpu Cortex-M4 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\driver\inc -I .\common -I .\USER -I .\USER\adapter -I .\USER\btn -I .\USER\debug -I .\USER\MotorControl -I .\USER\system -I .\USER\CanOpen -I .\USER\msg -I .\USER\math -I D:\JC_FA2_v.22.6_20260401\RTT-I.\RTE\_Selflocking_FA2-IF:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IF:\Keil5\Packs\HDSC\HC32F46x\1.0.6\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\objects\crc.o --omf_browse .\objects\crc.crf --depend .\objects\crc.d)
-I (USER\math\crc.h)(0x6513D7D8)
-I (.\USER\common.h)(0x686E2078)
-I (F:\Keil5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (F:\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
-I (.\common\hc32_ddl.h)(0x686DC966)
-I (.\common\hc32_common.h)(0x686DCBD6)
-I (.\common\hc32f46x.h)(0x690AFB7C)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (F:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (.\common\system_hc32f46x.h)(0x6035BC42)
-I (.\common\ddl_config.h)(0x652CFBCC)
-I (.\driver\inc\hc32f46x_adc.h)(0x686DC70C)
-I (.\driver\inc\hc32f46x_can.h)(0x68831D60)
-I (.\driver\inc\hc32f46x_clk.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_efm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_exint_nmi_swi.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_gpio.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_icg.h)(0x689A8FBC)
-I (.\driver\inc\hc32f46x_interrupts.h)(0x6513C894)
-I (.\driver\inc\hc32f46x_pwc.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_swdt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer0.h)(0x686DC698)
-I (.\driver\inc\hc32f46x_timer4_cnt.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timer4_oco.h)(0x6544B052)
-I (.\driver\inc\hc32f46x_timer4_pwm.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_timera.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_usart.h)(0x6035BC40)
-I (.\driver\inc\hc32f46x_utility.h)(0x68897486)
-I (.\USER\adapter\uart_adapter.h)(0x6406A2D6)

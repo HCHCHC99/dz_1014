@@ -1,0 +1,36 @@
+# ============================================================
+# Keil MDK 编译产物 (构建输出，不入库)
+# Keil 工程配置 (*.uvprojx / *.uvoptx / *.sct 等) 保留
+# ============================================================
+
+# 构建输出目录
+**/MDK/output/
+**/build_ota/
+**/Objects/
+**/Listings/
+**/DebugConfig/
+**/RTE/
+
+# 目标文件与中间文件
+*.o
+*.d
+*.crf
+*.i
+*.lst
+*.dep
+*.lnp
+*.iex
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+
+# Keil 构建日志
+*.build_log.htm
+
+# 调试器运行日志
+JLinkLog.txt
+
+# Keil 界面状态文件 (窗口布局等，每开一次 Keil 都会变动)
+*.uvguix.*

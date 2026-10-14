@@ -6,7 +6,7 @@
 #include "hz_timer.h"
 /******************************应用层业务宏定义*******************************/
 #define THRESHOLD_CURRENT_OVER    20.0f   // 过流阈值，单位A
-#define THRESHOLD_VOLTAGE_UNDER   16.0f   // 欠压阈值，单位V
+#define THRESHOLD_VOLTAGE_UNDER   21.0f   // 欠压阈值，单位V
 #define THRESHOLD_VOLTAGE_OVER    32.0f   // 过压阈值，单位V
 #define THRESHOLD_CURRENT_RECOVERY 4.0f  // 过流恢复阈值
 
@@ -61,7 +61,7 @@ bool OC_Get_TripFlag(void);         /* current over-current verdict (used by Mot
 
 // ====================== 电压保护独立开关 ======================
 // 注释掉下面对应的宏定义即可关闭对应的保护功能
-// #define ENABLE_UNDER_VOLTAGE_PROTECTION     // 使能欠压保护
+#define ENABLE_UNDER_VOLTAGE_PROTECTION     // 使能欠压保护
 #define ENABLE_OVER_VOLTAGE_PROTECTION      // 使能过压保护// 电流采样比较结果（应用层业务枚举）
 typedef enum {
     ADC_COMPARE_ALL_ABOVE = 1,         // 所有采样点超过阈值
