@@ -1,0 +1,324 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.30.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: bruce xiao ibm Flex license: MDK Professional 5.30 (Flex): 1 user(s) (mdk_pro) Support: Jul 2021
+ 
+Tool Versions:
+Toolchain:       MDK Professional 5.30 (Flex): 1 user(s)  Version: 5.30.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.30.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
+Dialog DLL:      TCM.DLL V1.42.0.0
+ 
+<h2>Project:</h2>
+D:\1_qxd\2023\1.Routine_work\7.FA2_Integration\(GY-20230703)Integration_FA2\1-SW Project\1.Controller\FA2IntegrationSelf-locking_20230803\Leapting_FA2.uvprojx
+Project File Date:  07/07/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+assembling startup_hc32f46x.s...
+compiling hc32f46x_cmp.c...
+compiling hc32f46x_efm.c...
+compiling hc32f46x_adc.c...
+compiling hc32f46x_dcu.c...
+compiling hc32f46x_emb.c...
+compiling hc32f46x_i2c.c...
+compiling hc32f46x_hash.c...
+compiling system_hc32f46x.c...
+compiling hc32f46x_gpio.c...
+compiling hc32f46x_crc.c...
+compiling hc32f46x_can.c...
+compiling hc32f46x_dmac.c...
+compiling hc32f46x_aes.c...
+compiling hc32f46x_exint_nmi_swi.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+driver\src\hc32f46x_exint_nmi_swi.c: 1 warning, 0 errors
+compiling hc32f46x_clk.c...
+compiling hc32f46x_event_port.c...
+compiling hc32f46x_i2s.c...
+compiling hc32f46x_icg.c...
+compiling hc32f46x_keyscan.c...
+compiling hc32f46x_sram.c...
+compiling hc32f46x_rtc.c...
+compiling hc32f46x_interrupts.c...
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+driver\src\hc32f46x_interrupts.c: 2 warnings, 0 errors
+compiling hc32f46x_ots.c...
+compiling hc32f46x_sdioc.c...
+compiling hc32f46x_swdt.c...
+compiling hc32f46x_timer4_cnt.c...
+compiling hc32f46x_rmu.c...
+compiling hc32f46x_mpu.c...
+compiling hc32f46x_timer0.c...
+compiling hc32f46x_qspi.c...
+compiling hc32f46x_pwc.c...
+compiling hc32f46x_spi.c...
+compiling hc32f46x_timer4_emb.c...
+compiling hc32f46x_timer4_oco.c...
+compiling hc32f46x_timer4_pwm.c...
+compiling delay_adapter.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\adapter\delay_adapter.c: 3 warnings, 0 errors
+compiling hc32f46x_timer4_sevt.c...
+compiling hc32f46x_trng.c...
+compiling hc32f46x_utility.c...
+compiling hc32f46x_timer6.c...
+compiling hc32f46x_wdt.c...
+compiling hc32f46x_timera.c...
+compiling uart_adapter.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\adapter\uart_adapter.c(206): warning:  #177-D: function "uart_adapter_Write_TDR"  was declared but never referenced
+  static void uart_adapter_Write_TDR(UART_CTRL_t* Handle, uint8_t Data)
+USER\adapter\uart_adapter.c: 4 warnings, 0 errors
+compiling hc32f46x_usart.c...
+compiling can_adapter.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\adapter\can_adapter.c(500): warning:  #177-D: variable "Ignore"  was declared but never referenced
+  	CAN_RCV_FRAME_t Ignore = {0};
+USER\adapter\can_adapter.c(183): warning:  #177-D: function "can_adapter_Write_TDR"  was declared but never referenced
+  static void can_adapter_Write_TDR(CAN_CTRL_t* Handle, CAN_TSMT_FRAME_t *pFrame)
+USER\adapter\can_adapter.c: 5 warnings, 0 errors
+compiling timer_adapter.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\adapter\timer_adapter.c(63): warning:  #177-D: function "timer_Get_Timer"  was declared but never referenced
+  static TIMER_t* timer_Get_Timer(uint8_t Timer)
+USER\adapter\timer_adapter.c: 4 warnings, 0 errors
+compiling gpio_adapter.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\adapter\gpio_adapter.c: 3 warnings, 0 errors
+compiling flash_adapter.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\adapter\flash_adapter.c(379): warning:  #1254-D: arithmetic on pointer to void or function type
+          Data += AddrJmpMemory;
+USER\adapter\flash_adapter.c(439): warning:  #1254-D: arithmetic on pointer to void or function type
+          Data += AddrJmpMemory;
+USER\adapter\flash_adapter.c: 5 warnings, 0 errors
+compiling adc_adapter.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\adapter\adc_adapter.c(599): warning:  #550-D: variable "ADResult"  was set but never used
+      static uint16_t ADResult = 0;
+USER\adapter\adc_adapter.c: 4 warnings, 0 errors
+compiling mc_app.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\MotorControl\mc_app.c(1283): warning:  #177-D: function "mc_app_MGC_Get_Specified_Pos"  was declared but never referenced
+  static MC_Handle_t* mc_app_MGC_Get_Specified_Pos(MGC_Handle_t *pMGC, uint8_t Type)
+USER\MotorControl\mc_app.c(1494): warning:  #177-D: function "mc_app_MotorGroup_Controller"  was declared but never referenced
+  static void mc_app_MotorGroup_Controller(MGC_Handle_t *pMGC)
+USER\MotorControl\mc_app.c: 5 warnings, 0 errors
+compiling pid.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\MotorControl\pid.c: 3 warnings, 0 errors
+compiling co_sdo.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\CanOpen\co_sdo.c: 3 warnings, 0 errors
+compiling mc_cur.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\MotorControl\mc_cur.c: 3 warnings, 0 errors
+compiling mc_hall.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\MotorControl\mc_hall.c: 3 warnings, 0 errors
+compiling modbus.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\msg\modbus.c(414): warning:  #550-D: variable "ByteNb"  was set but never used
+USER\msg\modbus.c: 4 warnings, 0 errors
+compiling mc_drv.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\MotorControl\mc_drv.c: 3 warnings, 0 errors
+compiling btn_drv.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\btn\btn_drv.c: 3 warnings, 0 errors
+compiling main.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\main.c: 3 warnings, 0 errors
+compiling queue.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\msg\queue.c(205): warning:  #550-D: variable "Res"  was set but never used
+USER\msg\queue.c: 4 warnings, 0 errors
+compiling mc_pos.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\MotorControl\mc_pos.c: 3 warnings, 0 errors
+compiling btn.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\btn\btn.c(141): warning:  #177-D: function "btn_Get_Btn_By_Mask"  was declared but never referenced
+  static BTN_HANDLE_t* btn_Get_Btn_By_Mask(BTN_MASK_t Mask, uint8_t *FoundIndex)
+USER\btn\btn.c: 4 warnings, 0 errors
+compiling mc_spd.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\MotorControl\mc_spd.c: 3 warnings, 0 errors
+compiling co.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\CanOpen\co.c: 3 warnings, 0 errors
+compiling system.c...
+.\driver\inc\hc32f46x_exint_nmi_swi.h(183): warning:  #66-D: enumeration value is out of "int" range
+      SwiCh31     = 1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(164): warning:  #66-D: enumeration value is out of "int" range
+      Event31             =   1u << 31,
+.\driver\inc\hc32f46x_interrupts.h(204): warning:  #66-D: enumeration value is out of "int" range
+      Int31               =   1u << 31,
+USER\system\system.c(1156): warning:  #177-D: variable "ColumnSpdMMPS"  was declared but never referenced
+  	float ColumnSpdMMPS = 0;
+USER\system\system.c(1487): warning:  #177-D: variable "ColumnPos"  was declared but never referenced
+      float ColumnPos = 0;
+USER\system\system.c(1603): warning:  #177-D: variable "ColumnPos"  was declared but never referenced
+  	float ColumnPos = 0;	
+USER\system\system.c(2247): warning:  #550-D: variable "ColumnPosTop"  was set but never used
+      float ColumnPosTop = 0;
+USER\system\system.c(2248): warning:  #550-D: variable "ColumnPosBtm"  was set but never used
+      float ColumnPosBtm = 0;
+USER\system\system.c(2310): warning:  #177-D: variable "RegValue"  was declared but never referenced
+      uint16_t RegValue = 0;
+USER\system\system.c(2439): warning:  #186-D: pointless comparison of unsigned integer with zero
+                  if((RegValue >= 0) && (RegValue < 128))
+USER\system\system.c(299): warning:  #177-D: function "system_CB_CanOpenSdoTx"  was declared but never referenced
+  static void system_CB_CanOpenSdoTx(uint8_t Index);
+USER\system\system.c: 11 warnings, 0 errors
+linking...
+Program Size: Code=50668 RO-data=1412 RW-data=208 ZI-data=5440  
+FromELF: creating hex file...
+".\Objects\FA2Integration.axf" - 0 Error(s), 89 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: HDSC
+                https://raw.githubusercontent.com/hdscmcu/pack/master/HDSC.HC32F46x.1.0.6.pack
+                HDSC.HC32F46x.1.0.6
+                HC32F46x ARM Cortex-M4 Device Family Pack
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\HDSC\HC32F46x\1.0.6\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:40
+</pre>
+</body>
+</html>

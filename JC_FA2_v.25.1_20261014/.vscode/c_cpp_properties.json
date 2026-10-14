@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "HC32F46x",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/SelfLockingFA2_DC_231114V1.1/**",
+                "C:/Users/jclcoal/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/**",
+                "D:/SelfLockingFA2_DC_231114V1.1/driver/inc/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

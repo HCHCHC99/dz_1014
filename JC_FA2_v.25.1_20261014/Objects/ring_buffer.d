@@ -1,0 +1,12 @@
+.\objects\ring_buffer.o: USER\adapter\ring_buffer.c
+.\objects\ring_buffer.o: USER\adapter\ring_buffer.h
+.\objects\ring_buffer.o: .\USER\system\sys_def.h
+.\objects\ring_buffer.o: .\common\hc32f46x.h
+.\objects\ring_buffer.o: C:\Users\jclcoal\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
+.\objects\ring_buffer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ring_buffer.o: C:\Users\jclcoal\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\ring_buffer.o: C:\Users\jclcoal\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\ring_buffer.o: C:\Users\jclcoal\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\ring_buffer.o: C:\Users\jclcoal\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\ring_buffer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\ring_buffer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
