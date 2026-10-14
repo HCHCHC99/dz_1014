@@ -6,8 +6,8 @@
 #include "hz_timer.h"
 /******************************应用层业务宏定义*******************************/
 #define THRESHOLD_CURRENT_OVER    15.0f   // 过流阈值，单位A
-#define THRESHOLD_VOLTAGE_UNDER   21.0f   // 欠压阈值，单位V
-#define THRESHOLD_VOLTAGE_OVER    32.0f   // 过压阈值，单位V
+#define THRESHOLD_VOLTAGE_UNDER   19.0f   // 欠压阈值，单位V
+#define THRESHOLD_VOLTAGE_OVER    28.0f   // 过压阈值，单位V
 #define THRESHOLD_CURRENT_RECOVERY 4.0f  // 过流恢复阈值
 
 #define CALIBRATION_TIME    0 //校准时间
