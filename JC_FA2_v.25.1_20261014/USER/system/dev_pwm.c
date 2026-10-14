@@ -446,8 +446,8 @@ void Positive_Run(void)
     //HOV LOU 1
     //HOU LOV 0
     // SlowStart_PWMDuty(phu);//98->2
-    SetDutyInstant_PWMDuty(phu,2);
-    SetDutyInstant_PWMDuty(phv,98);
+    SetDutyInstant_PWMDuty(phv,2);
+    SetDutyInstant_PWMDuty(phu,98);
 
 }
 
@@ -456,8 +456,8 @@ void Negative_Run(void)
     //HOV LOU 0
     //HOU LOV 1
     // SlowStart_PWMDuty(phv); //98->2
-    SetDutyInstant_PWMDuty(phv,2);
-    SetDutyInstant_PWMDuty(phu,98);
+    SetDutyInstant_PWMDuty(phu,2);
+    SetDutyInstant_PWMDuty(phv,98);
 }
 
 void Stop(void)
